@@ -1,0 +1,92 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: aqua;
+}
+
+.ball{
+    background-color: pink;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+.ball-1{
+    position: absolute; 
+    top: 35px;
+    left: 65px;
+    background-color: rgb(190, 230, 241);
+    box-shadow: 2px 2px 5px ;
+    
+}
+.ball-2{
+    position: absolute;
+    background-color: rgb(190, 230, 241);
+   
+    box-shadow: -2px -2px 5px ;
+    bottom: 55px;
+    right: 48px;
+}
+.container{
+    background-color: rgba(127, 255, 242, 0.516);
+    width: 315px;
+    height: 355px;
+    position: absolute;
+    left: 35%;
+    top: 21%;
+    z-index: 1;
+    padding: 14px ;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  ;
+    backdrop-filter: blur(8px);
+    
+}
+
+.upper{
+    
+    
+}
+
+.upper h1{
+    margin: 0 7px;
+    font-size: 41px;
+}
+
+.upper p{
+    margin: 7px;
+    font-size: 21px;
+}
+
+
+.lower{
+    font-size: 21px;
+    text-align: center;
+}
+
+.lower p{
+    text-align: start;
+}
+
+.lower input{
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 3px;
+    width: 98%;
+    height: 2rem;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px  ;
+}
+
+.submit{
+    margin: 7px 0;
+    /* font-size: 28px; */
+}
+.Already{
+    margin: 7px 0;
+    font-size: 14px;
+    text-shadow: 3px 3px 5px ;
+}
